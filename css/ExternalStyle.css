@@ -1,0 +1,121 @@
+.clickable-row {
+    cursor: pointer;
+
+}
+
+.read
+{
+    background-color: rgba(240, 240, 240,0.3);
+
+}
+
+.unread
+{
+    background-color: rgba(209,209,209,0.3);
+    
+    
+}
+
+.green {
+    color: #66ff66;
+    font-size:25px;
+}
+
+.cream {
+    color: #e63900;
+    font-size:25px;
+    border: 1px;
+}
+
+.yellow {
+    color: #ffcc00;
+    font-size:25px;
+}
+.main-body
+{
+    background-image: url("");
+    
+}
+
+.description
+{
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Roboto Slab";
+    font-weight: 100;
+    color:#8c8c8c;
+    font-size: 15px;
+    max-width: 450px;
+    max-height: 20px;
+    overflow: hidden; 
+    
+}
+
+.description2
+{
+    display: inline-block;
+    vertical-align: top;
+    
+    overflow: hidden; 
+    
+}
+
+.bla
+{
+    font-family: "Roboto Slab";
+    font-weight: 100;
+    color:#000;
+    font-size: 15px;
+}
+h2
+{
+    text-transform: capitalize;
+}
+
+.talk-bubble {
+    margin: 30px;
+  
+  position: relative;
+    max-width: 900px;
+    height: auto;
+    background-color: #66b3ff;
+}
+
+
+.tri-right.left-top:after{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+  left: -20px;
+    right: auto;
+  top: 0px;
+    bottom: auto;
+    border: 22px solid;
+    border-color: #66b3ff transparent transparent transparent;
+
+}
+
+/* Right triangle, left side slightly down */
+
+
+.affix {
+      top: 23px;
+      width:440px;
+  }
+
+
+
+/* talk bubble contents */
+.talktext{
+    color: white;
+    font-family: "Ubuntu-Italic", "Lucida Sans", helvetica, sans;
+  padding: 1em;
+    text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
